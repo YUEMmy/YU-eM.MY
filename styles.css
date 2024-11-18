@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   background: #e2e8f0;
+}
+
+.logo {
+   color: #fff;
+   font-size: 25px;
+   font-weight: 600;
+}
+.UM-Logo {
+   width: 200px; /* Sesuaikan ukuran logo */
+   height: 50px; /* Sesuaikan agar tetap bundar */
+   vertical-align: middle;
+   margin-right: 10px; /* Jarak kecil dengan teks */
+   object-fit: cover; /* Agar gambar tetap proporsional di dalam lingkaran */
+}
+
+.header-main {
+   position: relative;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   background-color:yellow;
+}
+
+.search-button {
+   color: orangered;
+   background-color: #ffffff;
+   border-color: #ffffff;
+}
+
+.list-group-item {
+   position: relative;
+   display: block;
+   /* padding: .75rem 1.25rem; */
+   padding: 10px;
+   background-color: #e4e3e3;
+   border: none;
+   padding-bottom: 2;
+   margin-bottom: 10px;
+   border-radius: .5rem !important;
+}
+
+.list-group-item.active {
+   background-color: orangered;
+   border: #6777ef;
+}
+
+.btn-primary {
+   background-color: #6777ef;
+   border: #6777ef;
+}
+
+.btn-primary:hover {
+   background-color: #4050c7;
+   border: #4050c7;
+}
+
+.payment {
+   padding: 10px;
+   background-repeat: no-repeat;
+   background-size: 90px auto;
+   background-position: center center;
+   background-color: white;
+   border-radius: 5px;
+   margin-right: 5px;
+   margin-left: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 400px; /* Atur tinggi slider sesuai keinginan, misal 400px */
+   object-fit: cover; /* Agar gambar memenuhi area slider dan tidak terdistorsi */
+   border-radius: 10px; /* Opsional: Membuat sudut gambar slider menjadi bulat */
+}
+
+/* Gaya umum untuk semua gambar slider */
+.slider-img {
+   width: 100%;
+   height: 400px; /* Sesuaikan tinggi slider */
+   object-fit: cover; /* Agar gambar memenuhi area tanpa distorsi */
+   object-position: center; /* Pusatkan gambar */
+   border-radius: 10px; /* Membuat sudut gambar menjadi melengkung */
+}
+
+/* Pengaturan khusus untuk Slide 1 */
+#slide-1 {
+   filter: brightness(0.9); /* Mengurangi kecerahan sedikit */
+   transition: transform 0.5s ease-in-out;
+}
+
+#slide-1:hover {
+   transform: scale(1.05); /* Efek zoom ketika dihover */
+   
+}
+
+/* Pengaturan khusus untuk Slide 2 */
+#slide-2 {
+   filter: contrast(1.2); /* Meningkatkan kontras */
+   transition: opacity 0.5s ease-in-out;
+
+}
+
+#slide-2:hover {
+   opacity: 0.8; /* Mengurangi opasitas ketika dihover */
+}
+
+/* Pengaturan khusus untuk Slide 3 */
+#slide-3 {
+   filter: grayscale(50%); /* Memberikan efek hitam putih 50% */
+   transition: filter 0.5s ease-in-out;
+}
+
+#slide-3:hover {
+   filter: grayscale(0); /* Menghapus efek hitam putih saat dihover */
+}
